@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng kí</title>
+    <link rel="stylesheet" type="text/css" href="css/1.css">
+    <link rel="shortcut icon" href="img/Gearvn_vũ-trụ-mới_-3.jpg" />
+</head>
+<body>
+<fieldset>
+    <legend>Đăng kí thông tin người dùng</legend>
+    <span class="error-msg" id="total-msg"></span>
+    <form id="member-form" name="member">
+        <div class="form-group">
+            <label>Họ và tên</label>
+            <input ty[e="text" name="username"
+                   class="form-control normal-input"
+                   placeholder="Họ và tên">
+            <span class="error-msg"></span>
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="email" class="form-control normal-input">
+            <span class="error-msg"></span>
+        </div>
+        <div class="form-group">
+            <label>Phone</label>
+            <input type="text" name="phone" class="form-control normal-input">
+            <span class="error-msg"></span>
+        </div>
+        <div class="form-group">
+            <label>Giới tính</label>
+            <label><input type="radio" name="gender" value="1"
+                          class="form-control" checked> Nam  </label>
+            <label><input type="radio" name="gender" value="0"
+                          class="form-control" checked> Nữ  </label>
+
+        </div>
+        <div class="form-group">
+            <label>Sở thích</label>
+            <input type="checkbox" name="Thể thao"> Thể thao
+            <input type="checkbox" name="Phim ảnh"> Phim ảnh
+            <input type="checkbox" name="Đọc sách"> Đọc sách
+            <input type="checkbox" name="Âm nhạc"> Âm nhạc
+            <input type="checkbox" name="Khác"> Khác
+        </div>
+        <div class="inputBox w100">
+            <textarea name="" required></textarea>
+            <span>Giới Thiệu Bản Thân</span>
+        </div>
+        <div>
+            <input id="submit" type="submit" name="submit" value="Gửi">
+        </div>
+
+
+
+</fieldset>
+
+<fieldset>
+    <h3> thông tin sinh viên</h3>
+    <li>Phạm Tú Tài</li>
+    <li>Email:taiptth21017@gmail.com</li>
+    <li>lớp: T2108A</li>
+</fieldset>
+<script type="text/javascript" src="js/1.js"></script>
+</body>
+</html>
